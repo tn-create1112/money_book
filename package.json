@@ -1,6 +1,7 @@
 {
-  "name": "hello_react",
+  "name": "money_book",
   "version": "1.0.0",
+  "homepage": "./",
   "description": "Hello React",
   "private": "true",
   "main": "index.js",
