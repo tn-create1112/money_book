@@ -1,14 +1,17 @@
 {
   "name": "money_book",
   "version": "1.0.0",
-  "homepage": "./",
   "description": "Hello React",
   "private": "true",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode production",
     "start": "webpack-dev-server",
-    "webpack": "webpack -d"
+    "webpack": "webpack -d",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://tn-create1112.github.io/money_book",
   "keywords": [],
   "author": "",
   "license": "ISC",
